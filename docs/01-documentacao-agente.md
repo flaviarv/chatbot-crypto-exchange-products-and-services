@@ -47,6 +47,7 @@ flowchart TD
     E --> F[Resposta]
 ```
 
+```mermaid
 %%{init: {'theme':'default'}}%%
 flowchart TB
   n1[app.py] --> n2[chroma db]
@@ -66,6 +67,7 @@ flowchart TB
   classDef Sky stroke:#374D7C,fill:#E2EBFF,color:#374D7C,stroke-width:1px
   classDef Rose stroke:#FF5978,fill:#FFDFE5,color:#8E2236,stroke-width:1px
   classDef Ash stroke:#999999,fill:#EEEEEE,color:#000000,stroke-width:1px
+```
 
 
 
