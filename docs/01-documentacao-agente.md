@@ -61,7 +61,6 @@ flowchart TB
     n8 --> n9["Embeddings"]
     n9 --> n4
 
-    %% estilos
     style n1 fill:#C8E6C9,stroke:#000000
     style n2 fill:#BBDEFB
     style n3 fill:#C8E6C9
