@@ -16,10 +16,10 @@ Como solução, o chatbot aumenta a eficiência operacional, reduz custos com at
 
 ### Público-Alvo
 
-> Clientes ativos que não possuem atendimento personalizado
-> Clientes sem cadastro
+Todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. (tanto os clientes ativos quanto clientes sem cadastro). Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
 
-[Sua descrição aqui]
+[Todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. (tanto os clientes ativos quanto clientes sem cadastro). Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
+]
 
 ----------------------------------------------------------------------------------------------------------
 
