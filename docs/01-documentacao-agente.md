@@ -16,10 +16,7 @@ Como solução, o chatbot aumenta a eficiência operacional, reduz custos com at
 
 ### Público-Alvo
 
-Todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. (tanto os clientes ativos quanto clientes sem cadastro). Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
-
-[Todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. (tanto os clientes ativos quanto clientes sem cadastro). Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
-]
+Como fica na página principal do site, todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -33,11 +30,6 @@ A personalidade do agente é consultivo e direto.
 
 ### Tom de Comunicação
 Formal, técnico e seco. Está mais próximo de um robô do que humano. 
-
-### Exemplos de Linguagem
-- Saudação: [ex: "Olá! Como posso ajudar com suas finanças hoje?"]
-- Confirmação: [ex: "Entendi! Deixa eu verificar isso para você."]
-- Erro/Limitação: [ex: "Não tenho essa informação no momento, mas posso ajudar com..."]
 
 --------------------------------------------------------------------------------------------------------------
 
@@ -70,7 +62,6 @@ flowchart TD
 
 | Guardrails | Guardrails da OpenAI |
 
----
 
 ### Banco de Dados Vetorial
 
