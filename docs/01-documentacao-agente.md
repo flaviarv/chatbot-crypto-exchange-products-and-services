@@ -74,6 +74,7 @@ flowchart TB
     class n2,n3,n4 Sky
     class n5,n6 Rose
     class n7,n8 Ash
+'''
 
 ### Componentes
 
