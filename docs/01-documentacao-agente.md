@@ -71,6 +71,7 @@ flowchart TB
     style n9 fill:#ffffff
 
     L_n4_n1_0@{ curve: natural }
+```
 
 
 
