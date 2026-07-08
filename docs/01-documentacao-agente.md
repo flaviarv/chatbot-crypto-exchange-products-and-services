@@ -47,6 +47,34 @@ flowchart TD
     E --> F[Resposta]
 ```
 
+```mermaid
+config:
+  theme: redux
+  layout: fixed
+---
+flowchart TB
+    n1["app.py"] --> n2["chroma db"] & n3["Core"] & n4["Documentos"]
+    n3 --> n5["__inity__.py"]
+    n4 --> n6["base_de_conhecimento.PDF"]
+    n5 --> n7["main.py"]
+    n7 --> n8["guardrails.py"]
+
+    n1@{ shape: rect}
+     n1:::Aqua
+     n3:::Sky
+     n5:::Rose
+     n6:::Rose
+     n7:::Ash
+     n8:::Ash
+    classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
+    style n2 fill:#BBDEFB
+    style n3 fill:#BBDEFB
+    style n4 fill:#BBDEFB
+```
+
 ### Componentes
 
 | Componente | Descrição |
