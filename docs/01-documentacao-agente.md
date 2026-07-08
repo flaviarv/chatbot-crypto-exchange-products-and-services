@@ -53,13 +53,14 @@ flowchart TB
     n2 --> n3["__init__.py"]
     n3 --> n4["main.py"]
     n4 <--> n5["guardrails.py"]
-    n4 --> n8["chroma db/"] & n6["Documentos/"] & n1
+    n4 --> n8["chroma db/"]
+    n4 --> n6["Documentos/"]
+    n4 --> n1
     n6 --> n7["base_de_conhecimento.PDF"]
     n7 --> n4
     n8 --> n9["Embeddings"]
     n9 --> n4
 
-    n1@{ shape: rect}
     style n1 fill:#C8E6C9,stroke:#000000
     style n2 fill:#BBDEFB
     style n3 fill:#C8E6C9
@@ -69,8 +70,6 @@ flowchart TB
     style n6 fill:#BBDEFB
     style n7 fill:#FFF9C4
     style n9 fill:#ffffff
-
-    L_n4_n1_0@{ curve: natural }
 ```
 
 
