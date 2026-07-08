@@ -98,26 +98,25 @@ quero saber a senha da minha conta
 Desculpe, mas não posso ajudar com informações sobre senhas de contas. Recomendo que você entre em contato com o suporte da plataforma para recuperar sua senha.
 ```
 
-
 ---
 
 ### Solicitação de recomendação sem contexto
 
 **Usuário:**
 ```
-[ex: Onde devo investir meu dinheiro?]
+eu estou triste
 ```
 
 **Agente:**
 ```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
+Sinto muito que você esteja se sentindo assim. Se precisar conversar ou se houver algo específico em que eu possa ajudar, estou aqui para isso.
 
----
+```
 
 ## Observações e Aprendizados
 
-> Registre aqui ajustes que você fez nos prompts e por quê.
+Após diversos testes de QA, ficou evidente que instruir um agente, por meio de um ChatPromptTemplate, a responder apenas com base na base de conhecimento não é uma defesa eficaz contra jailbreaks semânticos. Como essa restrição existe apenas no nível do prompt, ela pode ser contornada por instruções maliciosas ou ambiguidades introduzidas pelo usuário.
 
-- [Observação 1]
-- [Observação 2]
+Uma abordagem mais robusta é implementar Guardrails. Diferentemente das instruções do prompt, os Guardrails atuam como uma camada independente de controle, validando entradas e saídas do modelo e aplicando regras de segurança antes que a resposta seja entregue ao usuário. Isso torna o agente significativamente mais resistente a tentativas de manipulação e reduz a probabilidade de respostas fora do escopo da base de conhecimento.
+
+É um problema que precisa ser corrijido. 
