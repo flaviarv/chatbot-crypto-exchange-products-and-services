@@ -47,6 +47,8 @@ flowchart TD
     E --> F[Resposta]
 ```
 
+### Diagrama 2
+
 ```mermaid
 flowchart TB
     %% Definição da Estrutura
