@@ -48,26 +48,29 @@ flowchart TD
 ```
 
 ```mermaid
-%%{init: {'theme':'default'}}%%
 flowchart TB
-  n1[app.py] --> n2[chroma db]
-  n1 --> n3[Core]
-  n1 --> n4[Documentos]
-  n3 --> n5[__inity__.py]
-  n4 --> n6[base_de_conhecimento.PDF]
-  n5 --> n7[main.py]
-  n7 --> n8[guardrails.py]
+    n1["app.py"] --> n2["Core/"]
+    n2 --> n3["__init__.py"]
+    n3 --> n4["main.py"]
+    n4 <--> n5["guardrails.py"]
+    n4 --> n8["chroma db/"] & n6["Documentos/"] & n1
+    n6 --> n7["base_de_conhecimento.PDF"]
+    n7 --> n4
+    n8 --> n9["Embeddings"]
+    n9 --> n4
 
-  class n1 Aqua
-  class n3 Sky
-  class n5,n6 Rose
-  class n7,n8 Ash
+    n1@{ shape: rect}
+    style n1 fill:#C8E6C9,stroke:#000000
+    style n2 fill:#BBDEFB
+    style n3 fill:#C8E6C9
+    style n4 fill:#C8E6C9
+    style n5 fill:#C8E6C9
+    style n8 fill:#BBDEFB
+    style n6 fill:#BBDEFB
+    style n7 fill:#FFF9C4
+    style n9 fill:#ffffff
 
-  classDef Aqua stroke:#46EDC8,fill:#DEFFF8,color:#378E7A,stroke-width:1px
-  classDef Sky stroke:#374D7C,fill:#E2EBFF,color:#374D7C,stroke-width:1px
-  classDef Rose stroke:#FF5978,fill:#FFDFE5,color:#8E2236,stroke-width:1px
-  classDef Ash stroke:#999999,fill:#EEEEEE,color:#000000,stroke-width:1px
-```
+    L_n4_n1_0@{ curve: natural }
 
 
 
