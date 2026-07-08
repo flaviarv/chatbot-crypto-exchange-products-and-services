@@ -47,34 +47,29 @@ flowchart TD
     E --> F[Resposta]
 ```
 
-### Diagrama 2
-
 ```mermaid
 flowchart TB
-    %% Definição da Estrutura
-    n1["app.py (Frontend)"] --> n3["Core/"]
-    n1 --> n2[("chroma_db")]
-    n1 --> n4["Documentos/"]
-    
-    n3 --> n5["__init__.py"]
-    n4 --> n6["base_de_conhecimento.pdf"]
-    
-    %% O __init__ gerencia as ferramentas
-    n5 --> n7["main_RAG_2.py"]
-    n5 --> n8["guardrails.py"]
+    n1["app.py"] --> n2["chroma db"] & n3["Core"] & n4["Documentos"]
+    n3 --> n5["__inity__.py"]
+    n4 --> n6["base_de_conhecimento.PDF"]
+    n5 --> n7["main.py"]
+    n7 --> n8["guardrails.py"]
 
-    %% Definição de Cores (Classes)
-    classDef Aqua stroke-width:1px, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
-    classDef Sky stroke-width:1px, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
-    classDef Rose stroke-width:1px, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
-    classDef Ash stroke-width:1px, stroke:#999999, fill:#EEEEEE, color:#000000
-
-    %% Aplicação das Cores
+    classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
+    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
+    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
+    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
+    
     class n1 Aqua
-    class n2,n3,n4 Sky
-    class n5,n6 Rose
-    class n7,n8 Ash
-'''
+    class n3 Sky
+    class n5 Rose
+    class n6 Rose
+    class n7 Ash
+    class n8 Ash
+    
+    style n2 fill:#BBDEFB
+    style n3 fill:#BBDEFB
+    style n4 fill:#BBDEFB
 
 ### Componentes
 
