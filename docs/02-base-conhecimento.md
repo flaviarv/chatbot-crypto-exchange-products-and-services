@@ -6,15 +6,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `base_de_dados_rag.PDF` | RAG | Informações sobre produtos e serviços da corretora Cripto BR, como taxas, ativos negociados e outros. |
-
----
-
-## Adaptações nos Dados
-
-> Você modificou ou expandiu os dados mockados? Descreva aqui.
-
-[Sua descrição aqui]
+| `base_de_dados_rag.PDF` | PDF | Informações sobre produtos e serviços da corretora Cripto BR, como taxas, ativos negociados e outros. |
 
 ---
 
