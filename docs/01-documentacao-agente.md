@@ -47,29 +47,32 @@ flowchart TD
     E --> F[Resposta]
 ```
 
-```mermaid
 flowchart TB
-    n1["app.py"] --> n2["chroma db"] & n3["Core"] & n4["Documentos"]
-    n3 --> n5["__inity__.py"]
-    n4 --> n6["base_de_conhecimento.PDF"]
-    n5 --> n7["main.py"]
-    n7 --> n8["guardrails.py"]
+  %% nós e ligações
+  n1[app.py] --> n2[chroma db]
+  n1 --> n3[Core]
+  n1 --> n4[Documentos]
+  n3 --> n5[__inity__.py]
+  n4 --> n6[base_de_conhecimento.PDF]
+  n5 --> n7[main.py]
+  n7 --> n8[guardrails.py]
 
-    classDef Aqua stroke-width:1px, stroke-dasharray:none, stroke:#46EDC8, fill:#DEFFF8, color:#378E7A
-    classDef Sky stroke-width:1px, stroke-dasharray:none, stroke:#374D7C, fill:#E2EBFF, color:#374D7C
-    classDef Rose stroke-width:1px, stroke-dasharray:none, stroke:#FF5978, fill:#FFDFE5, color:#8E2236
-    classDef Ash stroke-width:1px, stroke-dasharray:none, stroke:#999999, fill:#EEEEEE, color:#000000
-    
-    class n1 Aqua
-    class n3 Sky
-    class n5 Rose
-    class n6 Rose
-    class n7 Ash
-    class n8 Ash
-    
-    style n2 fill:#BBDEFB
-    style n3 fill:#BBDEFB
-    style n4 fill:#BBDEFB
+  %% classes e estilos
+  class n1 Aqua
+  class n3 Sky
+  class n5,n6 Rose
+  class n7,n8 Ash
+
+  classDef Aqua stroke-width:1px,stroke-dasharray:none,stroke:#46EDC8,fill:#DEFFF8,color:#378E7A
+  classDef Sky stroke-width:1px,stroke-dasharray:none,stroke:#374D7C,fill:#E2EBFF,color:#374D7C
+  classDef Rose stroke-width:1px,stroke-dasharray:none,stroke:#FF5978,fill:#FFDFE5,color:#8E2236
+  classDef Ash stroke-width:1px,stroke-dasharray:none,stroke:#999999,fill:#EEEEEE,color:#000000
+
+  %% estilos individuais (opcional)
+  style n2 fill:#BBDEFB
+  style n3 fill:#BBDEFB
+  style n4 fill:#BBDEFB
+
 
 ### Componentes
 
