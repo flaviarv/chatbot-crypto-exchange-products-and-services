@@ -38,16 +38,6 @@ Formal, técnico e seco. Está mais próximo de um robô do que humano.
 ### Diagrama
 
 ```mermaid
-flowchart TD
-    A[Cliente] -->|Mensagem| B[Interface]
-    B --> C[LLM]
-    C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
-    E --> F[Resposta]
-```
-
-```mermaid
 flowchart TB
     n1["app.py"] --> n2["Core/"]
     n2 --> n3["__init__.py"]
@@ -72,7 +62,6 @@ flowchart TB
     style n7 fill:#FFF9C4,stroke:#000000
     style n9 fill:#ffffff,stroke:#000000
 ```
-
 
 ### Componentes
 
