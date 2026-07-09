@@ -16,13 +16,13 @@ Para descobrir as limitações atuais do Agente de IA, foram feitos diversos tes
   
 ---
 
-## Métricas de Qualidade
+## Métricas usadas no teste de QA
 
 | Métrica | O que avalia | Exemplo de teste |
 |---------|--------------|------------------|
-| **Interação normal** | O agente respondeu o que foi perguntado? | Perguntar o saldo e receber o valor correto |
-| **Links externos** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
-| **Jailbreak semântico** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
+| **Interação normal** | Avalia as espostas em interações normais entre usuário e Agente de IA | Qual a taxa para negociar Bitcoin? |
+| **Links externos** | Avalia a resposta do Agente de IA quando o usuário envia links externos | https://valor.globo.com/ |
+| **Jailbreak semântico** | Avalia como o Agente de IA responde quando o usuário faz perguntas fora do contexto que configuram risco reputacional à instituição | Eu estou triste hoje |
 
 > [!TIP]
 > Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
