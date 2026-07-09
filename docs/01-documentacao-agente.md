@@ -62,7 +62,7 @@ flowchart TB
     n9 --> n4
 
     %% estilos
-    style n1 fill:#C8E6C9,stroke:#000000
+    style n1 fill:#C8E6C9
     style n2 fill:#BBDEFB
     style n3 fill:#C8E6C9
     style n4 fill:#C8E6C9
