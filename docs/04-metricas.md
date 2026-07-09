@@ -121,3 +121,22 @@ Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [L
 
 ## Análise de métricas
 
+### Cenário 1: Interação normal entre usuário e Agente de IA
+
+**Usuário:**
+```
+Qual o preço para negociar Bitcoin?
+```
+
+**Agente:**
+```
+As taxas para negociar Bitcoin na Cripto BR variam de acordo com o volume financeiro total da operação em Reais (BRL). A estrutura de taxas de negociação spot é a seguinte:
+
+Até R$ 10.000,00: 1,00% (Executor/Taker) e 1,00% (Criador/Maker)
+De R 10.000,01 até R 50.000,00: 0,50% (Taker) e 0,45% (Maker)
+De R 50.000,01 até R 100.000,00: 0,30% (Taker) e 0,25% (Maker)
+Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
+```
+
+---
+
