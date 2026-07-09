@@ -184,7 +184,7 @@ PDF
 
 ### Estratégias Adotadas para Base de Consulta
 
-- Agente só responde perguntas se o conteúdo estiver dentro da base de consulta (documentos/base_de_conhecimento_rag.pdf) 
+- Agente só responde perguntas se o conteúdo estiver dentro da base de consulta (documentos/base_de_conhecimento_rag.pdf). Vale ressaltar que a estratégia para evotar alucinações para perguntas fora do contexto ainda não está adequada e precisa de melhorias. 
 
 - Se a pergunta não estiver na base de consulta, o agente responde que a pergunta está fora de contexto. O código aplica restrição limitando a fonte de conhecimento da IA é ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.")
 
@@ -192,9 +192,9 @@ PDF
 
 ### Estratégias Adotadas para Guardrails (Bloqueio de links externos)
 
-> Bloqueio de links externos: Possui um bloco de código que detecta URLs com http, https e www
+- Bloqueio de links externos: Possui um bloco de código que detecta URLs com http, https e www. Entretanto, se colocar 'google.com', o Guardrails não detecta. Portanto, precisa de melhorias. 
   
-- Bloqueio de links externos: bloco de código com lógica Booleana: se detectar uso de link externo (TRUE), retorna com     "Links não são permitidos nesta plataforma."
+- Bloqueio de links externos: bloco de código com lógica Booleana -> se detectar uso de link externo (TRUE), retorna com "Links não são permitidos nesta plataforma."
 
 
 ## Limitações do Agente de IA (teste de QA)
