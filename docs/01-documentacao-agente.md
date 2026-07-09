@@ -90,7 +90,7 @@ flowchart TD
 
 | Componente              | Descrição                                                                 |
 |:------------------------|:--------------------------------------------------------------------------|
-| Interface               | Chatbot da Steamlite                                                      |
+| Interface               | Steamlite                                                      |
 | LLM                     | gpt-4o-mini                                                               |
 | Base de Conhecimento    | Arquivo PDF com informações sobre produtos e serviços da corretora, armazenados de forma local |
 | Banco de Dados Vetorial | Chroma DB (open source)                                                   |
