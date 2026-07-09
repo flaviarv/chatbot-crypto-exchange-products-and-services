@@ -4,9 +4,8 @@
 
 Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA com o objetivo de identificar as limitações atuais do sistema e avaliar a eficácia do prompt.
 
-Os testes abrangeram diferentes cenários de interação, incluindo conversas normais entre usuário e agente, consultas contendo links externos e tentativas de jailbreak semântico, nas quais o usuário procura induzir o modelo a buscar informações fora da base de conhecimento autorizada.
+Os testes abrangeram diferentes cenários de interação, incluindo conversas normais entre usuário e agente, consultas contendo links externos e tentativas de jailbreak semântico, nas quais o usuário procura induzir o modelo a buscar informações fora da base de conhecimento autorizada. Também foram simuladas perguntas sensíveis, que são capazes de gerar riscos reputacionais para a instituição, como solicitações que extrapolam o escopo definido para o agente. 
 
-Também foram simuladas perguntas sensíveis, capazes de gerar riscos reputacionais para a instituição, como solicitações que extrapolam o escopo definido para o agente. Esse processo permitiu identificar vulnerabilidades, validar os mecanismos de proteção implementados e sugerir melhorias para oo comportamento do agente antes de sua disponibilização aos usuários.
 
 ## Métricas usadas no teste de QA
 
