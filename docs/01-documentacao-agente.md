@@ -103,17 +103,15 @@ Em um chatbot para corretoras de criptomoedas, os guardrails são um componente 
 
 ## Base de conhecimento
 
-Este arquivo é a Base de Conhecimento Oficial (RAG) da corretora Cripto BR. Ele funciona como a única fonte de verdade para o treinamento e consultas de agentes de inteligência artificial voltados ao atendimento ao cliente, reunindo regras de negócio, tabelas de taxas e especificações de produtos.  
+A base de consuta é um arquivo PDF com dados mockados da corretora Cripto BR. Ele funciona como a única fonte de verdade para o treinamento e consultas de agentes de inteligência artificial voltados ao atendimento ao cliente, reunindo regras de negócio, tabelas de taxas e especificações de produtos.  
 
 Estrutura do Documento (Base de Conhecimento da corretora Cripto BR)
 
 **Criptomoedas Disponíveis para Negociação**
 
 - Ativos Suportados: Lista detalhada de 20 ativos digitais selecionados para negociação spot (à vista).  
-PDF
 
 - Redes Oficiais: Especificação exata das redes suportadas para depósito e saque de cada criptoativo (ex: Native SegWit para BTC, ERC-20 para ETH, etc.).  
-PDF
 
 - Requisitos Especiais: Identificação de ativos que exigem parâmetros adicionais nas transações, como TAG para Ripple (XRP) ou Memo para Cosmos (ATOM) e Stellar (XLM).  
 
@@ -125,7 +123,6 @@ PDF
 PDF
 
 - Saques via PIX: Taxa fixa de R$ 2,90 por operação, com valor mínimo de R$ 20,00.  
-
 
 - Prazos: Funcionamento 24/7 com tempo médio de processamento de até 10 minutos para transações via PIX.  
 
