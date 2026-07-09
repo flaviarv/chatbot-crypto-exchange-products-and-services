@@ -108,9 +108,9 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 
 # LangSmith
 
-## Testes de prompt com LangSmith: análise de métricas
+## Testes com LangSmith: análise de métricas
 
-### Pergunta e resposta do agente de IA usada no teste
+### Prompt e resposta usados no teste
 
 **Usuário:**
 ```
