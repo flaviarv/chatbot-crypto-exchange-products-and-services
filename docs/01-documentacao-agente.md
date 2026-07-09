@@ -120,7 +120,6 @@ Estrutura do Documento (Base de Conhecimento da corretora Cripto BR)
 - Negociação Spot: Tabela regressiva de taxas para Criador (Maker) e Executor (Taker), calculada estritamente com base no volume financeiro individual de cada operação em Reais (BRL). As faixas variam de "Até R$ 10.000,00" (taxa de 1,00%) a "Acima de R$ 100.000,00" (0,20% Taker / 0,15% Maker).  
 
 - Depósitos via PIX: Gratuitos, com valor mínimo de R$ 10,00.  
-PDF
 
 - Saques via PIX: Taxa fixa de R$ 2,90 por operação, com valor mínimo de R$ 20,00.  
 
