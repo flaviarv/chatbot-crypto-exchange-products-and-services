@@ -135,7 +135,7 @@ Este arquivo é a Base de Conhecimento Oficial (RAG) da corretora Cripto BR. Ele
 
 Estrutura do Documento (Base de Conhecimento da corretora Cripto BR)
 
-### 1. Criptomoedas Disponíveis para Negociação
+## 1. Criptomoedas Disponíveis para Negociação
 
 - Ativos Suportados: Lista detalhada de 20 ativos digitais selecionados para negociação spot (à vista).  
 PDF
@@ -145,7 +145,7 @@ PDF
 
 - Requisitos Especiais: Identificação de ativos que exigem parâmetros adicionais nas transações, como TAG para Ripple (XRP) ou Memo para Cosmos (ATOM) e Stellar (XLM).  
 
-### 2. Estrutura de Taxas e Operações (Moeda Fiduciária e Spot)
+## 2. Estrutura de Taxas e Operações (Moeda Fiduciária e Spot)
 
 - Negociação Spot: Tabela regressiva de taxas para Criador (Maker) e Executor (Taker), calculada estritamente com base no volume financeiro individual de cada operação em Reais (BRL). As faixas variam de "Até R$ 10.000,00" (taxa de 1,00%) a "Acima de R$ 100.000,00" (0,20% Taker / 0,15% Maker).  
 
@@ -158,7 +158,7 @@ PDF
 - Prazos: Funcionamento 24/7 com tempo médio de processamento de até 10 minutos para transações via PIX.  
 PDF
 
-### 3. Programa de Afiliados
+## 3. Programa de Afiliados
 
 - Mecanismo: Permite a monetização através de links de indicação, gerando comissões recorrentes e vitalícias baseadas nas taxas de negociação dos indicados.  
 
@@ -169,7 +169,7 @@ PDF
 - Pagamento: Apuração diária e pagamento mensal em BRL ou USDT, à escolha do afiliado.  
 PDF
 
-### 4. Mesa de Operações OTC (Over-the-Counter)
+## 4. Mesa de Operações OTC (Over-the-Counter)
 
 - Público-Alvo: Destinada a investidores de grande porte (institucionais ou PF) para movimentar altos volumes sem impactar o livro de ordens público (evitando slippage).  
 PDF
@@ -179,7 +179,7 @@ PDF
 
 - Custos: Taxa nominal zero, aplicando um spread comercial fixo embutido na cotação que varia de acordo com o volume (0,40% a 0,10%).  
 
-### 5. Atendimento VIP (Alta Renda)
+## 5. Atendimento VIP (Alta Renda)
 
 - Critérios de Elegibilidade: Enquadramento automático para quem mantiver patrimônio custodiado ≥ R$ 500.000,00 ou atingir volume mensal de negociação > R$ 1.000.000,00.  
 PDF
