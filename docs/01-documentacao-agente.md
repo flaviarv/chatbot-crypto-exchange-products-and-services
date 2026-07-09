@@ -118,13 +118,19 @@ Ao implementar guardrails, é possível bloquear solicitações fora do escopo d
 
 Em um chatbot para corretoras de criptomoedas, os guardrails são um componente essencial para garantir que a inteligência artificial atue de forma segura, previsível e alinhada às políticas internas e às exigências de compliance, oferecendo uma melhor experiência ao cliente sem comprometer a segurança da operação.
 
-## Base de conhecimento
+### Base de conhecimento
 
 A base de consuta é um arquivo PDF com dados mockados da corretora Cripto BR. Ele funciona como a única fonte de verdade para o treinamento e consultas de agentes de inteligência artificial voltados ao atendimento ao cliente, reunindo regras de negócio, tabelas de taxas e especificações de produtos.  
 
 O Chroma DB é utilizado para indexar a base de conhecimento antes que o Agente de IA possa realizar consultas. Inicialmente, o conteúdo do arquivo PDF é extraído e dividido em pequenos trechos de texto (chunks). Em seguida, cada chunk é convertido em um embedding, ou seja, uma representação numérica que captura o significado semântico do texto por meio de um modelo de embeddings.
 
 Após essa etapa, os embeddings são armazenados no banco vetorial do Chroma DB juntamente com seus metadados, como a referência ao documento de origem e a posição do trecho no PDF. Durante uma consulta, o Agente de IA não pesquisa diretamente no arquivo PDF. Em vez disso, ele compara o embedding da pergunta do usuário com os vetores armazenados no Chroma DB e recupera os trechos semanticamente mais relevantes para que o LLM possa gerar uma resposta fundamentada na base de conhecimento.
+
+### LangSmith
+
+O LangSmith é uma plataforma desenvolvida pela LangChain para observar, testar, avaliar e depurar aplicações baseadas em modelos de linguagem (LLMs). Seu principal objetivo é fornecer formas visuais para avaliar  o funcionamento interno de agentes de IA. O objetivo é registrar as etapas de execução para facilitar a identificação de erros, gargalos de desempenho e oportunidades de melhoria.
+
+A ferramenta oferece recursos como tracing, testes de latência, avaliação automática de respostas (evaluation), comparação entre diferentes versões de prompts e monitoramento de aplicações em produção. Dessa forma, desenvolvedores conseguem testar e validar o comportamento de seus agentes de IA, além de otimizar a qualidade das respostas.
 
 -------------------------------------------------------------------------------------------------------------------------
 
