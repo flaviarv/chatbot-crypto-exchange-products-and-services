@@ -14,8 +14,6 @@ def responder(pergunta: str):
     trechos = retriever.invoke(pergunta)
     contexto = "\n\n".join(t.page_content for t in trechos)
     return cadeia.invoke({"query": pergunta, "contexto": contexto})
-
-...
 ```
 
 > [!TIP]
