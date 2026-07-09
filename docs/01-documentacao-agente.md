@@ -80,6 +80,7 @@ flowchart TB
 
 ### Componentes
 
+
 | Componente              | Descrição                                                                 |
 |:------------------------|:--------------------------------------------------------------------------|
 | Interface               | Steamlite                                                      |
