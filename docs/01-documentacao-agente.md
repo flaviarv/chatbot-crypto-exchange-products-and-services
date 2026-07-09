@@ -86,21 +86,16 @@ flowchart TD
 ```
 
 
-
 ### Componentes
 
-| Componente | Descrição |
-|------------|-----------|
+| Componente              | Descrição                                                                 |
+|:------------------------|:--------------------------------------------------------------------------|
+| Interface               | Chatbot da Steamlite                                                      |
+| LLM                     | gpt-4o-mini                                                               |
+| Base de Conhecimento    | Arquivo PDF com informações sobre produtos e serviços da corretora, armazenados de forma local |
+| Banco de Dados Vetorial | Chroma DB (open source)                                                   |
+| Guardrails              | Guardrails da OpenAI                                                      |
 
-| Interface | Chatbot da Steamlite |
-
-| LLM | gpt-4o-mini |
-
-| Base de Conhecimento | Arquivo PDF com informações sobre produtos e serviços da corretora, armazenados de forma local |
-
-| Banco de Dados Vetorial | Chroma DB (open source) |
-
-| Guardrails | Guardrails da OpenAI |
 
 
 ### Banco de Dados Vetorial
