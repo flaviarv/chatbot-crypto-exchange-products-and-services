@@ -4,8 +4,6 @@
 
 Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA para testar o prompt. Segue abaixo as conclusões e melhorias sugeridas:
 
-Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA para testar o prompt. Segue abaixo as conclusões e melhorias sugeridas:
-
 - O Gardrails da OpenAI ainda não está configurado para prevenir jailbreaks semânticos (apenas links externos). Nos testes de QA, deu conselhos para desabafar como se fosse um psicólogo.
 
 - O método ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.") para prevenir jailbreakings semânticos não é o melhor. Idealmente, isso deve estar melhor estruturado em guardrails.py e não em main.py. Talvez seja uma boa ideia trocar o Guardrails da OpenAI pelo Model Armor do Google (na minha experiência, funcionou muito melhor).
