@@ -48,40 +48,28 @@ flowchart TD
 ```
 
 ```mermaid
-flowchart TD
-    subgraph Core
-        n2["Core/"]
-        n3["__init__.py"]
-    end
-
-    subgraph Documentos
-        n6["Documentos/"]
-        n7["base_de_conhecimento.PDF"]
-    end
-
-    subgraph DB
-        n8["chroma db/"]
-        n9["Embeddings"]
-    end
-
-    n1["app.py"] --> n2
-    n2 --> n3
+flowchart TB
+    n1["app.py"] --> n2["Core/"]
+    n2 --> n3["__init__.py"]
     n3 --> n4["main.py"]
+    n4 <--> n5["guardrails.py"]
+    n4 --> n8["chroma db/"]
+    n4 --> n6["Documentos/"]
+    n4 --> n1
+    n6 --> n7["base_de_conhecimento.PDF"]
+    n7 --> n4
+    n8 --> n9["Embeddings"]
+    n9 --> n4
 
-    n4 --> n5["guardrails.py"]
-    n4 --> n6
-    n4 --> n8
-    n6 --> n7
-    n8 --> n9
-
+    %% estilos
     style n1 fill:#C8E6C9,stroke:#000000
     style n2 fill:#BBDEFB
     style n3 fill:#C8E6C9
     style n4 fill:#C8E6C9
     style n5 fill:#C8E6C9
+    style n8 fill:#BBDEFB
     style n6 fill:#BBDEFB
     style n7 fill:#FFF9C4
-    style n8 fill:#BBDEFB
     style n9 fill:#ffffff
 ```
 
