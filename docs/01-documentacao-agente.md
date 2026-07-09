@@ -65,6 +65,45 @@ flowchart TB
     style n9 fill:#ffffff,stroke:#000000
 ```
 
+```mermaid
+flowchart TB
+    n1["app.py"] --> n2["Core/"]
+    n2 --> n3["__initi__.py"]
+    n3 --> n4["main.py"]
+    n4 <--> n5["guardrails.py"]
+    n4 L_n4_n8_0@--> n8["chroma db/"] & n6["Documentos/"] & n1 & n10["langsmith.py"]
+    n6 --> n7["base_de_conhecimento.PDF"]
+    n8 --> n9["Embeddings"]
+    n9 --> n4
+    n7 --> n4
+
+    n1@{ shape: rect}
+    n10@{ shape: rect}
+    style n1 fill:#BBDEFB,stroke:#000000
+    style n2 fill:#2962FF
+    style n3 fill:#BBDEFB,stroke:#BBDEFB
+    style n4 fill:#BBDEFB
+    style n5 fill:#BBDEFB,stroke:#BBDEFB
+    style n8 fill:#2962FF
+    style n6 fill:#2962FF
+    style n10 fill:#BBDEFB
+    style n7 fill:#ffffff
+    style n9 fill:#ffffff
+    linkStyle 0 stroke:#757575,fill:none
+    linkStyle 1 stroke:#757575,fill:none
+    linkStyle 2 stroke:#757575,fill:none
+    linkStyle 3 stroke:#757575,fill:none
+    linkStyle 4 stroke:#757575,fill:none
+    linkStyle 5 stroke:#757575,fill:none
+    linkStyle 6 stroke:#757575,fill:none
+    linkStyle 7 stroke:#757575,fill:none
+    linkStyle 8 stroke:#757575,fill:none
+    linkStyle 9 stroke:#757575
+    linkStyle 10 stroke:#757575,fill:none
+    linkStyle 11 stroke:#757575,fill:none
+```
+
+
 ### Componentes
 
 | Componente              | Descrição                                                                 |
