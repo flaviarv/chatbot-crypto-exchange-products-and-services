@@ -1,12 +1,21 @@
 # Avaliação e Métricas
 
-## Como Avaliar seu Agente
+## Testes de QA para prompts
 
-A avaliação pode ser feita de duas formas complementares:
+Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA para testar o prompt. Segue abaixo as conclusões e melhorias sugeridas:
 
-1. **Testes estruturados:** Você define perguntas e respostas esperadas;
-2. **Feedback real:** Pessoas testam o agente e dão notas.
+Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA para testar o prompt. Segue abaixo as conclusões e melhorias sugeridas:
 
+- O Gardrails da OpenAI ainda não está configurado para prevenir jailbreaks semânticos (apenas links externos). Nos testes de QA, deu conselhos para desabafar como se fosse um psicólogo.
+
+- O método ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.") para prevenir jailbreakings semânticos não é o melhor. Idealmente, isso deve estar melhor estruturado em guardrails.py e não em main.py. Talvez seja uma boa ideia trocar o Guardrails da OpenAI pelo Model Armor do Google (na minha experiência, funcionou muito melhor).
+
+- Ainda não está suficientemente inteligente a ponto de entender que a frase "Qual a taxa do Bitcoin?" é a mesma coisa que "Qual a taxa para negociar Bitcoin?"
+  
+- Guardrails bloqueia corretamente links externos com http, https e www, mas não bloqueia links com .com, .io, .org, dentre outros.
+
+- O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
+  
 ---
 
 ## Métricas de Qualidade
