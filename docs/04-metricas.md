@@ -108,9 +108,12 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 
 # LangSmith
 
+
 ## Testes com LangSmith: análise de métricas
 
+
 ### Prompt e resposta usados no teste
+
 
 **Usuário:**
 ```
@@ -129,6 +132,7 @@ Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 ```
 
 ### Análise de metricas do teste
+
 
 **LLM Count (números de chamadas pelo usuário)**
 ```
