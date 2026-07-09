@@ -158,12 +158,12 @@ Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 ```
 
 ```
-
 **Input tokens**
 ```
 889
 ```
 
+```
 **Tempo de latência**
 ```
 2,43s
