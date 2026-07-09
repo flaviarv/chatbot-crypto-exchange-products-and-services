@@ -144,7 +144,8 @@ Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 ```
 
 **Total Cost:**  
-0.00022455  
+0.00022455 
+```
 
 **Output tokens:**  
 152  
@@ -154,6 +155,8 @@ Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 
 **Tempo de latência:**  
 2,43s  
+
+
 
 **Tempo de latência**
 ```
