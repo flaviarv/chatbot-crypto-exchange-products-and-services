@@ -106,7 +106,7 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 - O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
   
 
-# LangSmith
+# Teste LangSmith
 
 
 ## Testes com LangSmith: análise de métricas
