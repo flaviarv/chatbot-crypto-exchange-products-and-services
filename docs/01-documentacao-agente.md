@@ -148,10 +148,9 @@ PDF
 PDF
 
 - Saques via PIX: Taxa fixa de R$ 2,90 por operação, com valor mínimo de R$ 20,00.  
-PDF
+
 
 - Prazos: Funcionamento 24/7 com tempo médio de processamento de até 10 minutos para transações via PIX.  
-PDF
 
 **Programa de Afiliados**
 
@@ -162,29 +161,22 @@ PDF
 - Definição de Usuário Ativo: O indicado precisa realizar ao menos uma operação de qualquer valor nos últimos 90 dias.  
 
 - Pagamento: Apuração diária e pagamento mensal em BRL ou USDT, à escolha do afiliado.  
-PDF
 
 **Mesa de Operações OTC (Over-the-Counter)**
 
 - Público-Alvo: Destinada a investidores de grande porte (institucionais ou PF) para movimentar altos volumes sem impactar o livro de ordens público (evitando slippage).  
-PDF
 
 - Regras: Volume mínimo de R$ 100.000,00 por operação, cotação personalizada e fixada direto com o operador, e liquidação imediata (D+0).  
-PDF
 
 - Custos: Taxa nominal zero, aplicando um spread comercial fixo embutido na cotação que varia de acordo com o volume (0,40% a 0,10%).  
 
 **Atendimento VIP (Alta Renda)**
 
 - Critérios de Elegibilidade: Enquadramento automático para quem mantiver patrimônio custodiado ≥ R$ 500.000,00 ou atingir volume mensal de negociação > R$ 1.000.000,00.  
-PDF
 
 - Benefícios: Gerente de conta dedicado (WhatsApp/telefone/e-mail), suporte prioritário 24/7 (resposta em até 2 minutos), relatórios semanais de Research, acesso antecipado a pré-lançamentos, isenção na taxa de saque PIX e desconto permanente de 20% nas taxas spot padrão.  
-PDF
-
 
 - Diretrizes para a IA: Instrução explícita de como o agente deve proceder ao identificar um cliente com perfil VIP, orientando-o a usar o comando /falar-com-gerente ou abrir chamado na categoria correspondente após confirmar os requisitos.  
-PDF
 
 -------------------------------------------------------------------------------------------------------------------------
 
@@ -192,11 +184,11 @@ PDF
 
 ### Estratégias Adotadas para Base de Consulta
 
-> Agente só responde perguntas se o conteúdo estiver dentro da base de consulta (documentos/manual_cripto_br_rag.pdf) 
+- Agente só responde perguntas se o conteúdo estiver dentro da base de consulta (documentos/base_de_conhecimento_rag.pdf) 
 
-> Se a pergunta não estiver na base de consulta, o agente responde que a pergunta está fora de contexto. O código aplica restrição limitando a fonte de conhecimento da IA é ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.")
+- Se a pergunta não estiver na base de consulta, o agente responde que a pergunta está fora de contexto. O código aplica restrição limitando a fonte de conhecimento da IA é ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.")
 
-> Os embeddings da base de consulta são armazenados localmente através do Chroma DB
+- Os embeddings da base de consulta são armazenados localmente através do Chroma DB
 
 ### Estratégias Adotadas para Guardrails (Bloqueio de links externos)
 
