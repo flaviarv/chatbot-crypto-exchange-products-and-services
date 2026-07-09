@@ -78,7 +78,7 @@ flowchart TB
 ```
 
 
-### Componentes
+## Componentes
 
 
 | Componente              | Descrição                                                                 |
