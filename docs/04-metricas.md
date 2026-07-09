@@ -112,6 +112,16 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 
 O teste de QA realizado com o LangSmith teve como objetivo analisar as métricas geradas durante uma única interação entre o usuário e o agente de IA. Essa abordagem permitiu avaliar o comportamento do sistema em cada etapa da execução, incluindo o tempo de resposta, o consumo de tokens e o fluxo de processamento da requisição.
 
+## Métricas usadas no teste de QA
+
+| Métrica | O que avalia | Resposta |
+|---------|--------------|------------------|
+| **LLM Count** | Número de chamadas feitas ao modelo de IA | 1 |
+| **Total Coast** | Custo financeiro total da execução | 0.00022455 USD |
+| **Input tokens** | Tokens consumidos na entradar | 152 |
+| **Output tokens** |  Tokens gerados na resposta | 889 |
+| ****Tempo de latência:** | Tempo total de processamento e resposta. | 2,43s |
+
 ### Prompt e resposta usados no teste de QA
 
 
