@@ -136,7 +136,20 @@ Até R$ 10.000,00: 1,00% (Executor/Taker) e 1,00% (Criador/Maker)
 De R 10.000,01 até R 50.000,00: 0,50% (Taker) e 0,45% (Maker)
 De R 50.000,01 até R 100.000,00: 0,30% (Taker) e 0,25% (Maker)
 Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
+
 ```
+**LLM Count (números de chamadas pelo usuário)**
+```
+1
+```
+
+**Total Coast:**
+```
+0.00022455
+```
+1
+```
+
 
 ---
 
