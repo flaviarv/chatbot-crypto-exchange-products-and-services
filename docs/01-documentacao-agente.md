@@ -42,32 +42,6 @@ Formal, técnico e seco. Está mais próximo de um robô do que humano.
 ```mermaid
 flowchart TB
     n1["app.py"] --> n2["Core/"]
-    n2 --> n3["__init__.py"]
-    n3 --> n4["main.py"]
-    n4 <--> n5["guardrails.py"]
-    n4 --> n8["chroma db/"]
-    n4 --> n6["Documentos/"]
-    n4 --> n1
-    n6 --> n7["base_de_conhecimento.PDF"]
-    n7 --> n4
-    n8 --> n9["Embeddings"]
-    n9 --> n4
-
-    %% estilos
-    style n1 fill:#C8E6C9,stroke:#000000
-    style n2 fill:#BBDEFB,stroke:#000000
-    style n3 fill:#C8E6C9,stroke:#000000
-    style n4 fill:#C8E6C9,stroke:#000000
-    style n5 fill:#C8E6C9,stroke:#000000
-    style n8 fill:#BBDEFB,stroke:#000000
-    style n6 fill:#BBDEFB,stroke:#000000
-    style n7 fill:#FFF9C4,stroke:#000000
-    style n9 fill:#ffffff,stroke:#000000
-```
-
-```mermaid
-flowchart TB
-    n1["app.py"] --> n2["Core/"]
     n2 --> n3["__initi__.py"]
     n3 --> n4["main.py"]
     n4 <--> n5["guardrails.py"]
