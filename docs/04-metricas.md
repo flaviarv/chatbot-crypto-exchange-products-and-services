@@ -2,19 +2,11 @@
 
 ## Testes de QA para prompts
 
-Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA para testar o prompt. Segue abaixo as conclusões e melhorias sugeridas:
+Para descobrir as limitações atuais do Agente de IA, foram feitos diversos testes de QA com o objetivo de identificar as limitações atuais do sistema e avaliar a eficácia do prompt.
 
-- O Gardrails da OpenAI ainda não está configurado para prevenir jailbreaks semânticos (apenas links externos). Nos testes de QA, deu conselhos para desabafar como se fosse um psicólogo.
+Os testes abrangeram diferentes cenários de interação, incluindo conversas normais entre usuário e agente, consultas contendo links externos e tentativas de jailbreak semântico, nas quais o usuário procura induzir o modelo a buscar informações fora da base de conhecimento autorizada.
 
-- O método ("system", "Responda exclusivamente com o conteúdo fornecido no contexto.") para prevenir jailbreakings semânticos não é o melhor. Idealmente, isso deve estar melhor estruturado em guardrails.py e não em main.py. Talvez seja uma boa ideia trocar o Guardrails da OpenAI pelo Model Armor do Google (na minha experiência, funcionou muito melhor).
-
-- Ainda não está suficientemente inteligente a ponto de entender que a frase "Qual a taxa do Bitcoin?" é a mesma coisa que "Qual a taxa para negociar Bitcoin?"
-  
-- Guardrails bloqueia corretamente links externos com http, https e www, mas não bloqueia links com .com, .io, .org, dentre outros.
-
-- O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
-  
----
+Também foram simuladas perguntas sensíveis, capazes de gerar riscos reputacionais para a instituição, como solicitações que extrapolam o escopo definido para o agente. Esse processo permitiu identificar vulnerabilidades, validar os mecanismos de proteção implementados e sugerir melhorias para oo comportamento do agente antes de sua disponibilização aos usuários.
 
 ## Métricas usadas no teste de QA
 
