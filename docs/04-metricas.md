@@ -140,33 +140,3 @@ De R 50.000,01 até R 100.000,00: 0,30% (Taker) e 0,25% (Maker)
 Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 
 ```
-
-### Análise de metricas do teste
-
-
-**LLM Count (números de chamadas pelo usuário)**
-```
-1
-```
-
-**Total Coast:**
-```
-0.00022455 USD
-```
-
-**Output tokens:**  
-```
-152
-```
-
-**Input tokens:**
-```
-889 
-```
-
-**Tempo de latência:**  
-```
-2,43s  
-```
-
-
