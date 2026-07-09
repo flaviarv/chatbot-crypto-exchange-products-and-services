@@ -120,7 +120,7 @@ Em um chatbot para corretoras de criptomoedas, os guardrails são um componente 
 
 ### Base de conhecimento
 
-A base de consuta é um arquivo PDF com dados mockados da corretora Cripto BR. Ele funciona como a única fonte de verdade para o treinamento e consultas de agentes de inteligência artificial voltados ao atendimento ao cliente, reunindo regras de negócio, tabelas de taxas e especificações de produtos.  
+A base de consuta é um arquivo PDF com dados mockados da corretora Cripto BR. Ele funciona como a base de conhecimento para consultas de agentes de inteligência artificial voltados ao atendimento ao cliente, reunindo regras de negócio, tabelas de taxas e especificações de produtos.  
 
 O Chroma DB é utilizado para indexar a base de conhecimento antes que o Agente de IA possa realizar consultas. Inicialmente, o conteúdo do arquivo PDF é extraído e dividido em pequenos trechos de texto (chunks). Em seguida, cada chunk é convertido em um embedding, ou seja, uma representação numérica que captura o significado semântico do texto por meio de um modelo de embeddings.
 
