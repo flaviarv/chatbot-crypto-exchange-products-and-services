@@ -106,22 +106,11 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 - O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
   
 
-## Métricas Avançadas (Opcional)
+# LangSmith
 
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
+## Testes de prompt com LangSmith: análise de métricas
 
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
-
-
-# Teste LangSmith
-
-## Análise de métricas
-
-### Cenário 1: Interação normal entre usuário e Agente de IA
+### Pergunta e resposta do agente de IA usada no teste
 
 **Usuário:**
 ```
@@ -138,6 +127,9 @@ De R 50.000,01 até R 100.000,00: 0,30% (Taker) e 0,25% (Maker)
 Acima de R$ 100.000,00: 0,20% (Taker) e 0,15% (Maker)]
 
 ```
+
+### Análise de metricas do teste
+
 **LLM Count (números de chamadas pelo usuário)**
 ```
 1
