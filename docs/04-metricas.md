@@ -115,3 +115,9 @@ Para quem quer explorar mais, algumas métricas técnicas de observabilidade tam
 - Logs e taxa de erros.
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
+
+
+# Teste LangSmith
+
+## Análise de métricas
+
