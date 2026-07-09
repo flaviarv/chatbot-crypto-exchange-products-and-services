@@ -109,10 +109,11 @@ Após os testes de QA para prompts, segue a lista do que precisa ser melhorado
 # Teste LangSmith
 
 
-## Testes com LangSmith: análise de métricas
+## Testes de QA com LangSmith
 
+O teste de QA realizado com o LangSmith teve como objetivo analisar as métricas geradas durante uma única interação entre o usuário e o agente de IA. Essa abordagem permitiu avaliar o comportamento do sistema em cada etapa da execução, incluindo o tempo de resposta, o consumo de tokens e o fluxo de processamento da requisição.
 
-### Prompt e resposta usados no teste
+### Prompt e resposta usados no teste de QA
 
 
 **Usuário:**
