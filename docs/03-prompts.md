@@ -3,16 +3,18 @@
 ## System Prompt
 
 ```
-[Cole aqui seu system prompt completo]
+prompt_consulta = ChatPromptTemplate.from_messages([
+    ("system", "Responda exclusivamente com o conteúdo fornecido no contexto."),
+    ("human", "{query}\n\nContexto:\n{contexto}\n\nResposta:")
+])
 
-Exemplo de estrutura:
-Você é um agente financeiro inteligente especializado em [área].
-Seu objetivo é [objetivo principal].
+cadeia = prompt_consulta | modelo | StrOutputParser()
 
-REGRAS:
-1. Sempre baseie suas respostas nos dados fornecidos
-2. Nunca invente informações financeiras
-3. Se não souber algo, admita e ofereça alternativas
+def responder(pergunta: str):
+    trechos = retriever.invoke(pergunta)
+    contexto = "\n\n".join(t.page_content for t in trechos)
+    return cadeia.invoke({"query": pergunta, "contexto": contexto})
+
 ...
 ```
 
