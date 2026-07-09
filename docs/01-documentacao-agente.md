@@ -62,15 +62,15 @@ flowchart TB
     n9 --> n4
 
     %% estilos
-    style n1 fill:#C8E6C9
-    style n2 fill:#BBDEFB
-    style n3 fill:#C8E6C9
-    style n4 fill:#C8E6C9
-    style n5 fill:#C8E6C9
-    style n8 fill:#BBDEFB
-    style n6 fill:#BBDEFB
-    style n7 fill:#FFF9C4
-    style n9 fill:#ffffff
+    style n1 fill:#C8E6C9,stroke:#000000
+    style n2 fill:#BBDEFB,stroke:#000000
+    style n3 fill:#C8E6C9,stroke:#000000
+    style n4 fill:#C8E6C9,stroke:#000000
+    style n5 fill:#C8E6C9,stroke:#000000
+    style n8 fill:#BBDEFB,stroke:#000000
+    style n6 fill:#BBDEFB,stroke:#000000
+    style n7 fill:#FFF9C4,stroke:#000000
+    style n9 fill:#ffffff,stroke:#000000
 ```
 
 
