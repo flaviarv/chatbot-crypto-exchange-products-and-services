@@ -164,3 +164,5 @@ Para descobrir as limitações atuais do Agente de IA, foram feitos diversos tes
 - Guardrails bloqueia corretamente links externos com http, https e www, mas não bloqueia links com .com, .io, .org, dentre outros.
 
 - O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
+
+- Compliance: ainda falta criar sistema de auditoria para guardar dados de longo prazo para o Banco Central. 
