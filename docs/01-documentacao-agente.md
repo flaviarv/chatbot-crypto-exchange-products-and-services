@@ -87,8 +87,9 @@ flowchart TB
 | LLM                     | gpt-4o-mini                                                               |
 | Base de Conhecimento    | Arquivo PDF com informações sobre produtos e serviços da corretora, armazenados de forma local |
 | Banco de Dados Vetorial | Chroma DB (open source)                                                   |
-| Guardrails              | Guardrails da OpenAI                                                      |
+| Guardrails Open Ai      | Mecanismos que restringem e protegem o comportamento da IA.               |
 | LangSmith               | Plataforma de LLMOps (Large Language Model Operations).                   |
+| Data Lake (Storage)     | Repositório central para armazenamento de dados brutos.                   |
 
 
 
@@ -131,6 +132,12 @@ Após essa etapa, os embeddings são armazenados no banco vetorial do Chroma DB 
 O LangSmith é uma plataforma desenvolvida pela LangChain para observar, testar, avaliar e depurar aplicações baseadas em modelos de linguagem (LLMs). Seu principal objetivo é fornecer formas visuais para avaliar  o funcionamento interno de agentes de IA. O objetivo é registrar as etapas de execução para facilitar a identificação de erros, gargalos de desempenho e oportunidades de melhoria.
 
 A ferramenta oferece recursos como tracing, testes de latência, avaliação automática de respostas (evaluation), comparação entre diferentes versões de prompts e monitoramento de aplicações em produção. Dessa forma, desenvolvedores conseguem testar e validar o comportamento de seus agentes de IA, além de otimizar a qualidade das respostas.
+
+### Data Lake 
+
+Um Data Lake é um repositório centralizado que armazena grandes volumes de dados em seu formato original, como arquivos, documentos, registros de sistemas, imagens e logs.
+
+Seu principal objetivo é servir como base para auditoria do Banco Central do Brasil, análises, inteligência de negócios (BI), aprendizado de máquina e geração de insights. No contexto de um Agente de IA, por exemplo, um Data Lake pode armazenar históricos de conversas, métricas de desempenho, logs de execução e feedback dos usuários, permitindo identificar oportunidades de melhoria, monitorar o comportamento do sistema e apoiar decisões baseadas em dados.
 
 -------------------------------------------------------------------------------------------------------------------------
 
