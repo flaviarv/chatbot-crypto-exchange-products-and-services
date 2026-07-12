@@ -163,6 +163,4 @@ Para descobrir as limitações atuais do Agente de IA, foram feitos diversos tes
   
 - Guardrails bloqueia corretamente links externos com http, https e www, mas não bloqueia links com .com, .io, .org, dentre outros.
 
-- O chatbot demora para carregar no Streamlite por causa do Banco de Dados Vetorial. Precisa acelerar a inicialização do programa.
-
-- Compliance: ainda falta criar sistema de auditoria para guardar dados de longo prazo para o Banco Central. 
+- Data Lake: o Agente registra no Data Lake apenas o run_id de cada interação individual, em vez de armazenar um identificador que relacione todas as mensagens de uma mesma conversa. Recomenda-se implementar um mecanismo que permita agrupar as interações por sessão ou por cliente, possibilitando a análise do histórico completo das conversas. Além disso, é importante criar mecanismos de identificação do cliente (respeitando as políticas de privacidade aplicáveis) para compreender seus principais problemas, dúvidas e necessidades, gerando insights que apoiem a melhoria contínua da experiência do usuário.
