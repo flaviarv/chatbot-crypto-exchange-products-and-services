@@ -16,6 +16,8 @@ O chatbot de IA foi desenvolvido para oferecer respostas rápidas e confiáveis 
 
 Como solução, o chatbot aumenta a eficiência operacional, reduz custos com atendimento de primeiro nível, melhora a escalabilidade do suporte e proporciona respostas imediatas aos clientes. O resultado é um atendimento mais ágil, maior produtividade da equipe e uma utilização mais eficiente dos recursos da corretora.
 
+Além disso, o Agente de IA também detecta as dúvidas mais frequentes dos clientes, os pontos de fricção e as necessidades não atendidas — dados valiosos para produto e suporte.
+
 ### Público-Alvo
 
 Como fica na página principal do site, todos os tipos de clientes pode usar o Agente de IA para tirar dúvidas sobre produtos e serviços da exchange. Clientes premium tendem a usar menos, pois possuem atendimento personalizado. 
